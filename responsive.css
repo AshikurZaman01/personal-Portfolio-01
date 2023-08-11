@@ -1,0 +1,14 @@
+/* Small devices  */
+@media screen and (max-width:576px){
+   
+    .nav-container{
+        flex-direction: column;
+    }
+    .logo{
+        margin-bottom: 30px;
+    }
+    nav ul{
+        margin-bottom: 20px;
+    }
+}
+/* Small devices  */

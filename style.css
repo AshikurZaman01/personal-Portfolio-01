@@ -1,0 +1,73 @@
+/* Common Styles */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.primary-bg-color {
+    background-color: #FD6E0A;
+}
+.text-color{
+    color: #474747;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/* Common Styles end */
+
+/* Header */
+header{
+    background: #FFF8F3;
+}
+
+/* NAV */
+nav{
+    width: 80%;
+    margin:  auto;
+}
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 45px;
+    font-weight: 800;
+    line-height: normal;
+}
+.logo span{
+    color: #FD6E0A;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a ,.btn{
+    text-decoration: none;
+    display: block;
+    color: #474747;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0 10px;
+}
+.btn{
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+}
+/* NAV end */
+
+
+/* Header */
